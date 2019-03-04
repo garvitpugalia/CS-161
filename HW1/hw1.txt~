@@ -1,0 +1,20 @@
+The program was run on the test cases provided to get the following results:
+
+1) PAD(x)
+
+PAD(0) = PAD(1) = PAD(2) = 1
+PAD(3) = 2
+PAD(4) = 2
+PAD(5) = 3
+PAD(6) = 4
+PAD(7) = 5
+PAD(8) = 7
+PAD(9) = 9
+PAD(10) = 12
+
+As values of x get higher, the function takes a lot more time due to the recursive element. For every recursive call, a new stack is allocated (since the function isn't tail recursive) which also takes up a lot of memory and time.
+
+2) SUMS(x)
+
+SUMS(0) = SUMS(1) = SUMS(2) = 0
+SUMS(3) = SUMS(4) = 1

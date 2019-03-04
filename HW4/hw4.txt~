@@ -1,0 +1,14 @@
+Graph1 is not satisfiable with 3 colors from the RSat results.
+However, Graph1 is satisfiable with 4 colors.
+
+A possible solution is:
+
+Node 1: Color 1 (R)
+Node 2: Color 2 (G)
+Node 3: Color 1 (R)
+Node 4: Color 2 (G)
+Node 5: Color 3 (B)
+Node 6: Color 4 (Y)
+Node 7: Color 3 (B)
+
+For Graph2, the RSat is unsatisfiable with 1,2,...,7 colors. Therefore, a minimum of 8 colors are required to color the second graph.

@@ -1,0 +1,17 @@
+The first instance (i.e. Graph1 with 3 colors) is not satisfiable from the RSat results.
+However, the second instance (i.e. Graph1 with 4 colors) is satisfiable.
+This shows that Graph1 is not colorable with 3 colors, but can be satisfiably colored with 4 colors.
+(This is possibly due to the presence of 4-cliques, but cannot be stated directly since it is a NP problem)
+
+A possible solution with 4 colors is:
+
+Node 1: Color 1 (R)
+Node 2: Color 2 (G)
+Node 3: Color 1 (R)
+Node 4: Color 2 (G)
+Node 5: Color 3 (B)
+Node 6: Color 4 (Y)
+Node 7: Color 3 (B)
+
+For Graph2, the RSat is unsatisfiable with 1,2,...,7 colors; however, an instance with 8 colors is satisfiable.
+Therefore, a minimum of 8 colors are required to color the second graph.
